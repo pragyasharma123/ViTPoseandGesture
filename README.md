@@ -21,6 +21,7 @@ The model predicts normalized keypoint coordinates for a specified number of peo
 **Data Preparation**
 **To gather annotations file for dataset**: download mpii_data.json
 **To gather images**: Visit  **http://human-pose.mpi-inf.mpg.de/#download** and click 'Images'to begin download. Extract images into same folder as the rest of your data. 
+**Remember to change json_path and img_dir to your own paths**
 The code includes sections for loading and transforming data using the PoseEstimationDataset class.
 The dataset is split into training and validation sets, and DataLoader objects are created for each.
 
