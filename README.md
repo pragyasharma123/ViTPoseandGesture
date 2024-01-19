@@ -52,6 +52,7 @@ The implementation is done in Python with the support of torch.nn for neural net
 **Dataset Handling:**
 **GestureDataset class:** Handles loading and preprocessing of gesture images and annotations. It's designed to read data from specified directories, apply transformations, and prepare data for the model.
 **HAGRID DATASET DOWNLOAD**: Visit **https://github.com/hukenovs/hagrid**. Scroll to 'Downloads' and follow instructions for correct downloading of the dataset. Make sure to change paths to your own in terms of annotations and images. 
+
 The Structure of the dataset is as follows:
 
 ├── hagrid_dataset <PATH_TO_DATASET_FOLDER>
