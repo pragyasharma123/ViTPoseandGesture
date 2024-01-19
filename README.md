@@ -55,21 +55,7 @@ The implementation is done in Python with the support of torch.nn for neural net
 
 The Structure of the dataset is as follows:
 
-├── hagrid_dataset <PATH_TO_DATASET_FOLDER>
-│   ├── call
-│   │   ├── 00000000.jpg
-│   │   ├── 00000001.jpg
-│   │   ├── ...
-├── hagrid_annotations
-│   ├── train <PATH_TO_JSON_TRAIN>
-│   │   ├── call.json
-│   │   ├── ...
-│   ├── val <PATH_TO_JSON_VAL>
-│   │   ├── call.json
-│   │   ├── ...
-│   ├── test <PATH_TO_JSON_TEST>
-│   │   ├── call.json
-│   │   ├── ...
+![image](https://github.com/pragyasharma123/ViTPoseandGesture/assets/43220394/c5d039a6-4307-448d-ade4-f34a9c0208a7)
 
 
 **Image transformations:** The images are resized, converted to tensors, and normalized using standard mean and standard deviation values.
