@@ -1,4 +1,3 @@
-# %%
 from tqdm import tqdm
 import json
 import os
@@ -15,7 +14,7 @@ import random
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader, random_split
 
-# %%
+
 class PoseEstimationDataset(Dataset):
     def __init__(self, json_path, image_dir, transform=None, target_size=(224, 224)):
         self.image_dir = image_dir
@@ -62,7 +61,7 @@ class PoseEstimationDataset(Dataset):
         return image, keypoints_tensor, denormalized_keypoints, item['image_filename'], orig_width, orig_height    
 
 
-# %%
+
 num_keypoints = 16
 class PoseEstimationModule(nn.Module):
     def __init__(self, num_keypoints, max_people=13):
@@ -97,7 +96,7 @@ class PoseEstimationModule(nn.Module):
 
 
 
-# %%
+
 num_epochs = 10
 random_seed = 42
 torch.manual_seed(random_seed)
