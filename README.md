@@ -40,7 +40,7 @@ Includes both training and validation steps, along with loss calculations and op
 Users can run the provided Python Script to train the model on their dataset.
 Adjustments to dataset paths, model parameters, and training settings can be made within the notebook
 
-**ViTGestureRecognition:**
+**ViTGestureRecognition: WORKING**
 
 
 This repository contains a comprehensive implementation of a gesture recognition system using Vision Transformers (ViT). The project utilizes state-of-the-art techniques in deep learning and computer vision to accurately classify different hand gestures.
