@@ -1,9 +1,8 @@
 import torch
 import torch.nn as nn
 from transformers import ViTModel, ViTConfig
-from ray import tune
-from ray import train
-from ray.tune.schedulers import ASHAScheduler
+import ray
+from ray import train, tune
 from ray.tune.search.optuna import OptunaSearch
 from torchvision.transforms import Compose, ToTensor, Resize, Normalize
 import os
@@ -15,6 +14,8 @@ from typing import Tuple
 from torch.utils.data import DataLoader
 import pandas as pd
 import time
+
+ray.init(num_gpus=2)  # Adjust based on your total available GPUs
 
 # THESE ARE THE CLASSNAMES FOR THE 18 DIFFERENT HAND GESTURES
 class_names = [
@@ -47,22 +48,38 @@ model_name = 'google/vit-base-patch16-224'
 config = ViTConfig.from_pretrained(model_name)
 vit_backbone = ViTModel.from_pretrained(model_name, config=config)
 
-class GestureRecognitionHead(nn.Module):
-    def __init__(self, embedding_size=768, num_classes=18, fc1_size=1024, fc2_size=18, dropout_rate=0.5):
-        super(GestureRecognitionHead, self).__init__()
-        self.fc1 = nn.Linear(embedding_size, fc1_size)
-        self.fc1_bn = nn.BatchNorm1d(fc1_size)
-        self.relu = nn.ReLU()
-        self.dropout = nn.Dropout(p=dropout_rate)
-        self.fc2 = nn.Linear(fc1_size, fc2_size)
+class DynamicLinearBlock(nn.Module):
+    def __init__(self, in_features, out_features, dropout_rate, activation_func):
+        super(DynamicLinearBlock, self).__init__()
+        self.linear = nn.Linear(in_features, out_features)
+        self.bn = nn.BatchNorm1d(out_features)
+        self.dropout = nn.Dropout(dropout_rate)
+        if activation_func == "ReLU":
+            self.activation = nn.ReLU()
+        elif activation_func == "LeakyReLU":
+            self.activation = nn.LeakyReLU()
+        elif activation_func == "ELU":
+            self.activation = nn.ELU()
 
     def forward(self, x):
-        x = self.fc1(x)
-        x = self.fc1_bn(x)
-        x = self.relu(x)
-        x = self.dropout(x)
-        x = self.fc2(x)
-        return x
+        return self.dropout(self.activation(self.bn(self.linear(x))))
+
+class GestureRecognitionHead(nn.Module):
+    def __init__(self, embedding_size, num_classes, layer_sizes, dropout_rates, activations):
+        super(GestureRecognitionHead, self).__init__()
+        layers = []
+        input_size = embedding_size
+
+        for i, (size, dropout_rate, activation) in enumerate(zip(layer_sizes, dropout_rates, activations)):
+            layers.append(DynamicLinearBlock(input_size, size, dropout_rate, activation))
+            input_size = size
+
+        self.layers = nn.Sequential(*layers)
+        self.output_layer = nn.Linear(input_size, num_classes)
+
+    def forward(self, x):
+        x = self.layers(x)
+        return self.output_layer(x)
 
 
 class PoseEstimationHead(nn.Module):
@@ -88,12 +105,10 @@ class PoseEstimationHead(nn.Module):
 
 
 class CombinedModel(nn.Module):
-    def __init__(self, num_classes, num_keypoints, max_people=13, fc1_size=1024, fc2_size=num_classes, dropout_rate=0.5):
+    def __init__(self, num_classes, num_keypoints, max_people=13, layer_sizes=[1024, 512], dropout_rates=[0.5, 0.4], activations=["ReLU", "LeakyReLU"]):
         super(CombinedModel, self).__init__()
         self.max_people = max_people
-
-        
-        self.gesture_head = GestureRecognitionHead(embedding_size=768, num_classes=num_classes, fc1_size=fc1_size, fc2_size=fc2_size, dropout_rate=dropout_rate)
+        self.gesture_head = GestureRecognitionHead(embedding_size=768, num_classes=num_classes, layer_sizes=layer_sizes, dropout_rates=dropout_rates, activations=activations)
         
         self.backbone = ViTModel.from_pretrained('google/vit-base-patch16-224')
         
@@ -407,16 +422,14 @@ def get_flops(model):
 
     return total_flops
 
-def calculate_fitness(model_accuracy, latency, flops, memory_traffic, k=1e-9):
+def calculate_loss(model_accuracy, latency, flops, memory_traffic, k=1e-9):
     """
-    Calculate the fitness score for a model configuration.
-    
     :param model_accuracy: The accuracy of the model.
     :param latency: The latency of the model in seconds.
     :param flops: The floating-point operations per second.
     :param memory_traffic: The memory traffic in bytes.
     :param k: A scaling factor for the flops and memory traffic.
-    :return: The fitness score.
+    :return: The loss.
     """
     # Assuming sota_accuracy is a predefined constant
     sota_accuracy = 0.99  
@@ -424,39 +437,96 @@ def calculate_fitness(model_accuracy, latency, flops, memory_traffic, k=1e-9):
     # Calculate the loss based on the deviation from sota_accuracy and other factors
     loss = (sota_accuracy - model_accuracy) * latency * max(flops * k, memory_traffic)
     
-    # The fitness function could be defined as the inverse of loss
-    fitness = 1 / loss
-    return fitness
+    return loss
 
 
 def train_gesture_classification(config):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    random_seed = 42
-    num_epoch = 1
-    num_classes = len(class_names)
-    learning_rate = 0.005
-    
-    # Initialize your model, criterion, optimizer, and scheduler here using the config dict
-    model = CombinedModel(num_classes=num_classes,
-                          num_keypoints=16,
-                          dropout_rate=config["dropout_rate"]).to(device)
-    
-    optimizer = getattr(torch.optim, config["optimizer_type"])(
-        model.parameters(), lr=config["learning_rate"])
-    
-    
-    batch_size = config.get("batch_size", 64)  # Dynamic batch size
+    torch.manual_seed(42)
+    random.seed(42)
 
-    g_criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=5e-4)
-    g_scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=num_epoch, eta_min=0.00001)
+    # Prepare model
+    num_layers = config["num_layers"]
+    layer_sizes = [config["fc1_size"]] * num_layers
+    activations = [config["activations"]] * num_layers  # Ensure you have a mechanism to convert string to actual PyTorch activation classes if needed
+    dropout_rate = config["dropout_rates"]
+    dropout_rates = [dropout_rate] * num_layers
 
+    model = CombinedModel(
+        num_classes=len(class_names),
+        num_keypoints=16,  
+        max_people=13,  
+        layer_sizes=layer_sizes,
+        dropout_rates=dropout_rates,
+        activations=activations
+    )
 
+    if torch.cuda.device_count() > 1:
+        print(f"Let's use {torch.cuda.device_count()} GPUs!")
+        model = torch.nn.DataParallel(model)
+
+    model.to(device)  # Move your model to the appropriate device
+
+    # Prepare optimizer
+    optimizer_type = config["optimizer_type"]
+    learning_rate = config["learning_rate"]
+    weight_decay = config["weight_decay"]
+
+    if optimizer_type == "SGD":
+        optimizer = torch.optim.SGD(
+            model.parameters(),
+            lr=learning_rate,
+            momentum=config.get("optimizer_momentum", 0.9),  # Default to a common momentum value if not specified
+            weight_decay=weight_decay
+        )
+    elif optimizer_type == "Adam":
+        optimizer = torch.optim.Adam(
+            model.parameters(),
+            lr=learning_rate,
+            weight_decay=weight_decay
+        )
+    elif optimizer_type == "Adagrad":
+        optimizer = torch.optim.Adagrad(
+            model.parameters(),
+            lr=learning_rate,
+            weight_decay=weight_decay
+        )
+    elif optimizer_type == "RMSprop":
+        optimizer = torch.optim.RMSprop(
+            model.parameters(),
+            lr=learning_rate,
+            momentum=config.get("optimizer_momentum", 0.9),  # Default to a common momentum value if not specified
+            weight_decay=weight_decay
+        )
+    elif optimizer_type == "AdamW":
+        optimizer = torch.optim.AdamW(
+        model.parameters(),
+        lr=learning_rate,
+        weight_decay=weight_decay
+    )
+    else:
+        raise ValueError(f"Unsupported optimizer type: {optimizer_type}")
+
+    # Prepare learning rate scheduler
+    scheduler_type = config["lr_scheduler_type"]
+    scheduler_step_size = config.get("lr_scheduler_step_size", 10)  # Provide a default value if not specified
+
+    if scheduler_type == "StepLR":
+        scheduler_gamma = config.get("lr_scheduler_gamma", 0.1)  # Default gamma value if not specified
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=scheduler_step_size, gamma=scheduler_gamma)
+    elif scheduler_type == "ExponentialLR":
+        scheduler_gamma = config.get("lr_scheduler_gamma", 0.95)  # It's also used in ExponentialLR, so providing a default
+        scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=scheduler_gamma)
+    else:
+        raise ValueError(f"Unsupported scheduler type: {scheduler_type}")
+
+    
     g_transform = Compose([
     Resize((224, 224)),  # Resize to a multiple of 14 for patch embedding compatibility
     ToTensor(),  # Convert the image to a tensor
     Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),  # Normalize the image
 ])
+    g_criterion = nn.CrossEntropyLoss()
 
     
     # Load your data here
@@ -475,13 +545,11 @@ def train_gesture_classification(config):
         transform=g_transform,
         target_image_size=(224,224)
     )
+    
+    g_train_loader = DataLoader(train_data, batch_size=config["batch_size"], shuffle=True)
+    g_test_loader = DataLoader(test_data, batch_size=config["batch_size"], shuffle=False)
 
-    torch.manual_seed(random_seed)
-    random.seed(random_seed)
    
-    g_train_loader = DataLoader(train_data, batch_size=batch_size, collate_fn=g_collate_fn, shuffle=True, num_workers=2, drop_last=True)
-    g_test_loader = DataLoader(test_data, batch_size=batch_size, collate_fn=g_collate_fn, shuffle=False, num_workers=2, drop_last=True)
-
     for epoch in range(10):  
         model.train()
         train_loss, train_correct, train_total = 0.0, 0, 0
@@ -511,13 +579,12 @@ def train_gesture_classification(config):
         
         # Compute epoch-level training loss and accuracy
         epoch_loss = train_loss / train_total
-        epoch_accuracy = train_correct / train_total * 100
     
         # Optional: Print epoch-level training details
-        print(f'Epoch {epoch+1}/{num_epoch}, Loss: {epoch_loss:.4f}, Accuracy: {train_accuracy*100:.2f}%')
+        print(f'Epoch {epoch+1}/{10}, Loss: {epoch_loss:.4f}, Accuracy: {train_accuracy*100:.2f}%')
     
         # Update the learning rate scheduler
-        g_scheduler.step()
+        scheduler.step()
 
         model.eval()
         val_loss, val_correct, val_total = 0, 0, 0
@@ -549,43 +616,49 @@ def train_gesture_classification(config):
                 print(f"Gesture validation accuracy:" , val_accuracy * 100)
         
             # Compute epoch-level training loss and accuracy
-            epoch_loss = val_loss / val_total
-            epoch_accuracy = val_correct / val_total * 100
+            val_loss = val_loss / val_total
 
-            print(f'Epoch {epoch+1}/{num_epoch}, Loss: {epoch_loss:.4f}, Accuracy: {val_accuracy*100:.2f}%')
+            metrics = {"val_loss": val_loss}
+
+            train.report(metrics)
+        
+
+
+            print(f'Epoch {epoch+1}/{10}, Loss: {epoch_loss:.4f}, Accuracy: {val_accuracy*100:.2f}%')
         
             input_tensor = torch.randn((1, 3, 224, 224)).to(device)  # Example input tensor
             flops = get_flops(model) 
-            fitness = calculate_fitness(val_accuracy, latency, flops, memory_traffic)
 
-            train.report({"accuracy": val_accuracy*100, "latency": latency, "memory_traffic": memory_traffic, "flops": flops, "fitness": fitness})
+            loss_function = calculate_loss(val_accuracy*100, latency, flops, memory_traffic)
 
+            return val_loss
 
+# for gesture recognition
 search_space = {
-    "batch_size": tune.choice([16, 32, 64, 128, 256]),
-    "dropout_rate": tune.choice([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]),
-    "learning_rate": tune.loguniform(1e-4, 1e-1),
+    "num_layers": tune.choice([1, 2, 3]),
+    "fc1_size": tune.choice([256, 512, 1024]),
+    "activations": tune.choice(["ReLU", "LeakyReLU", "ELU"]),
+    "dropout_rates": tune.choice([0.3, 0.4, 0.5]),
+    "batch_size": tune.choice([16, 32, 64, 128]),
+    "learning_rate": tune.choice([0.0005, 0.005, 0.05]),
     "optimizer_type": tune.choice(['Adam', 'SGD', 'RMSprop', 'AdamW', 'Adagrad']),
     "lr_scheduler_type": tune.choice(['StepLR', 'ExponentialLR']),
     "lr_scheduler_step_size": tune.choice([5, 10, 20]),
-    "lr_scheduler_gamma": tune.choice([0.1, 0.5, 0.9]),
+    "optimizer_momentum": tune.choice([0.6, 0.7, 0.8, 0.9]),
+    "weight_decay": tune.choice([5e-2, 5e-3, 5e-4])
 }
 
-scheduler = ASHAScheduler(
-    max_t=100,
-    grace_period=10,
-    reduction_factor=2)
+search_alg  = OptunaSearch(metric = "val_loss", mode = "min") 
+tuner = tune.Tuner(train_gesture_classification, 
+                   param_space=search_space,
+                   tune_config = tune.TuneConfig(
+                       search_alg=search_alg,
+                       num_samples = 10,
+                       metric = "val_loss",
+                       mode = "min",
+                       max_concurrent_trials=2,
+                   ))
 
-search_alg = OptunaSearch(metric="accuracy", mode="max")
+results = tuner.fit()
 
-analysis = tune.run(
-    tune.with_parameters(train_gesture_classification),
-    resources_per_trial={"cpu": 8, "gpu": 4},
-    config=search_space,
-    num_samples=10,
-    metric="accuracy",  
-    mode="max",  
-    scheduler=scheduler,
-    search_alg=search_alg)
 
-print("Best hyperparameters found were: ", analysis.best_config)
