@@ -1,8 +1,9 @@
 import torch
 import torch.nn as nn
 from transformers import ViTModel, ViTConfig
-from ray import train, tune
+from ray import tune, train
 from ray.tune.search.optuna import OptunaSearch
+from ray.tune.search import ConcurrencyLimiter
 from torchvision.transforms import Compose, ToTensor, Resize, Normalize
 import os
 import torch
@@ -465,6 +466,7 @@ def train_gesture_classification(config):
 
     model.to(device)  # Move your model to the appropriate device
 
+
     # Prepare optimizer
     optimizer_type = config["optimizer_type"]
     learning_rate = config["learning_rate"]
@@ -547,8 +549,6 @@ def train_gesture_classification(config):
     g_train_loader = DataLoader(train_dataset, batch_size=config["batch_size"], shuffle=True)
     g_test_loader = DataLoader(test_dataset, batch_size=config["batch_size"], shuffle=False)
 
-    
-   
     for epoch in range(10):  
         model.train()
         train_loss, train_correct, train_total = 0.0, 0, 0
@@ -616,10 +616,7 @@ def train_gesture_classification(config):
         
             # Compute epoch-level training loss and accuracy
             val_loss = val_loss / val_total
-
-            metrics = {"val_loss": val_loss}
-
-            train.report(metrics)
+            train.report({"val_loss": val_loss})
 
             print(f'Epoch {epoch+1}/{10}, Loss: {epoch_loss:.4f}, Accuracy: {val_accuracy*100:.2f}%')
         
@@ -628,7 +625,6 @@ def train_gesture_classification(config):
 
             loss_function = calculate_loss(val_accuracy*100, latency, flops, memory_traffic)
 
-            return val_loss
 
 # for gesture recognition
 search_space = {
@@ -650,16 +646,19 @@ train_gesture_classification_with_resources = tune.with_resources(
     resources={"cpu": 8, "gpu": 2}
 )
 
-search_alg  = OptunaSearch(metric = "val_loss", mode = "min") 
+algo  = OptunaSearch() 
+algo = ConcurrencyLimiter(algo, max_concurrent=4)
+
+num_samples = 10
 tuner = tune.Tuner(train_gesture_classification, 
-                   param_space=search_space,
                    tune_config = tune.TuneConfig(
-                       search_alg=search_alg,
-                       num_samples = 10,
                        metric = "val_loss",
                        mode = "min",
-                       max_concurrent_trials=2,
-                   ))
+                       search_alg=algo,
+                       num_samples=num_samples,
+                   ),
+                   param_space=search_space,
+                   )
 results = tuner.fit()
 
 
