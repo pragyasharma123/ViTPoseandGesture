@@ -1,0 +1,5766 @@
+{
+    "avg_inference_time": 0.08955773591995239,
+    "inferences_per_second": 11.165981249166572,
+    "gpu_usage_records": [
+        {
+            "time": 1.2400147914886475,
+            "utilization": 0,
+            "memory_used": 1455554560,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2452354431152344,
+            "utilization": 0,
+            "memory_used": 1455554560,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2478783130645752,
+            "utilization": 0,
+            "memory_used": 1455554560,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2507622241973877,
+            "utilization": 0,
+            "memory_used": 1457651712,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2533249855041504,
+            "utilization": 0,
+            "memory_used": 1459748864,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2556490898132324,
+            "utilization": 0,
+            "memory_used": 1461846016,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2581243515014648,
+            "utilization": 0,
+            "memory_used": 1461846016,
+            "memory_total": 25757220864,
+            "power": 60102,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2644615173339844,
+            "utilization": 0,
+            "memory_used": 1461846016,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2667357921600342,
+            "utilization": 0,
+            "memory_used": 1463943168,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2689282894134521,
+            "utilization": 0,
+            "memory_used": 1463943168,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2712390422821045,
+            "utilization": 0,
+            "memory_used": 1466040320,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.273409366607666,
+            "utilization": 0,
+            "memory_used": 1466040320,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2755515575408936,
+            "utilization": 0,
+            "memory_used": 1466040320,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2779111862182617,
+            "utilization": 0,
+            "memory_used": 1468137472,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2834911346435547,
+            "utilization": 0,
+            "memory_used": 1470234624,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2858436107635498,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2880034446716309,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.290158748626709,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2922935485839844,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.2944724559783936,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.296623706817627,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.299530029296875,
+            "utilization": 0,
+            "memory_used": 1472331776,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.304835319519043,
+            "utilization": 0,
+            "memory_used": 1474428928,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3071792125701904,
+            "utilization": 0,
+            "memory_used": 1476526080,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3095309734344482,
+            "utilization": 0,
+            "memory_used": 1478623232,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3118903636932373,
+            "utilization": 0,
+            "memory_used": 1478623232,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3140678405761719,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3165063858032227,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.318791151046753,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3240294456481934,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3263580799102783,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3285112380981445,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3307535648345947,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.333045482635498,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3353145122528076,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3374967575073242,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3407783508300781,
+            "utilization": 0,
+            "memory_used": 1480720384,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3453660011291504,
+            "utilization": 0,
+            "memory_used": 1484914688,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3478331565856934,
+            "utilization": 0,
+            "memory_used": 1487011840,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.350187063217163,
+            "utilization": 0,
+            "memory_used": 1489108992,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3525166511535645,
+            "utilization": 0,
+            "memory_used": 1491206144,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3552019596099854,
+            "utilization": 0,
+            "memory_used": 1493303296,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3577227592468262,
+            "utilization": 0,
+            "memory_used": 1495400448,
+            "memory_total": 25757220864,
+            "power": 60893,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3639945983886719,
+            "utilization": 0,
+            "memory_used": 1497497600,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3664309978485107,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3688554763793945,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3710877895355225,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3732225894927979,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3753972053527832,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3776319026947021,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3805525302886963,
+            "utilization": 0,
+            "memory_used": 1499594752,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3856496810913086,
+            "utilization": 0,
+            "memory_used": 1501691904,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3881909847259521,
+            "utilization": 0,
+            "memory_used": 1503789056,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3903539180755615,
+            "utilization": 0,
+            "memory_used": 1503789056,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.392627239227295,
+            "utilization": 0,
+            "memory_used": 1503789056,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3954274654388428,
+            "utilization": 0,
+            "memory_used": 1505886208,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.3977479934692383,
+            "utilization": 0,
+            "memory_used": 1505886208,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4037532806396484,
+            "utilization": 0,
+            "memory_used": 1510080512,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4070959091186523,
+            "utilization": 0,
+            "memory_used": 1510080512,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4097278118133545,
+            "utilization": 0,
+            "memory_used": 1510080512,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4119367599487305,
+            "utilization": 0,
+            "memory_used": 1512177664,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4142451286315918,
+            "utilization": 0,
+            "memory_used": 1512177664,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.416881799697876,
+            "utilization": 0,
+            "memory_used": 1512177664,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4195220470428467,
+            "utilization": 0,
+            "memory_used": 1514274816,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4248347282409668,
+            "utilization": 0,
+            "memory_used": 1514274816,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4273347854614258,
+            "utilization": 0,
+            "memory_used": 1514274816,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4298391342163086,
+            "utilization": 0,
+            "memory_used": 1514274816,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4327549934387207,
+            "utilization": 0,
+            "memory_used": 1518469120,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.435396432876587,
+            "utilization": 0,
+            "memory_used": 1520566272,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4375758171081543,
+            "utilization": 0,
+            "memory_used": 1522663424,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4403600692749023,
+            "utilization": 0,
+            "memory_used": 1522663424,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4452126026153564,
+            "utilization": 0,
+            "memory_used": 1522663424,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4475491046905518,
+            "utilization": 0,
+            "memory_used": 1522663424,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.449824571609497,
+            "utilization": 0,
+            "memory_used": 1522663424,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4525341987609863,
+            "utilization": 0,
+            "memory_used": 1524760576,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4552407264709473,
+            "utilization": 0,
+            "memory_used": 1528954880,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.457977056503296,
+            "utilization": 0,
+            "memory_used": 1533149184,
+            "memory_total": 25757220864,
+            "power": 64378,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4641096591949463,
+            "utilization": 0,
+            "memory_used": 1533149184,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4667139053344727,
+            "utilization": 2,
+            "memory_used": 1533149184,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4695649147033691,
+            "utilization": 2,
+            "memory_used": 1535246336,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4731578826904297,
+            "utilization": 2,
+            "memory_used": 1539440640,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.476067304611206,
+            "utilization": 2,
+            "memory_used": 1539440640,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.479212999343872,
+            "utilization": 2,
+            "memory_used": 1539440640,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4843721389770508,
+            "utilization": 2,
+            "memory_used": 1541537792,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4880523681640625,
+            "utilization": 2,
+            "memory_used": 1543634944,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4906964302062988,
+            "utilization": 2,
+            "memory_used": 1543634944,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4933223724365234,
+            "utilization": 2,
+            "memory_used": 1543634944,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.4969167709350586,
+            "utilization": 2,
+            "memory_used": 1543634944,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.500680685043335,
+            "utilization": 2,
+            "memory_used": 1543634944,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.505972146987915,
+            "utilization": 2,
+            "memory_used": 1547829248,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5097508430480957,
+            "utilization": 2,
+            "memory_used": 1549926400,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5130338668823242,
+            "utilization": 2,
+            "memory_used": 1549926400,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.51580810546875,
+            "utilization": 2,
+            "memory_used": 1552023552,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.519190788269043,
+            "utilization": 2,
+            "memory_used": 1554120704,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5245139598846436,
+            "utilization": 2,
+            "memory_used": 1554120704,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5276854038238525,
+            "utilization": 2,
+            "memory_used": 1556217856,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5308446884155273,
+            "utilization": 2,
+            "memory_used": 1556217856,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5346143245697021,
+            "utilization": 2,
+            "memory_used": 1558315008,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5375826358795166,
+            "utilization": 2,
+            "memory_used": 1558315008,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5435419082641602,
+            "utilization": 2,
+            "memory_used": 1560412160,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5475130081176758,
+            "utilization": 2,
+            "memory_used": 1560412160,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.550431489944458,
+            "utilization": 2,
+            "memory_used": 1562509312,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5532362461090088,
+            "utilization": 2,
+            "memory_used": 1562509312,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5571937561035156,
+            "utilization": 2,
+            "memory_used": 1562509312,
+            "memory_total": 25757220864,
+            "power": 64261,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5640084743499756,
+            "utilization": 2,
+            "memory_used": 1564606464,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5670711994171143,
+            "utilization": 2,
+            "memory_used": 1566703616,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.569244384765625,
+            "utilization": 2,
+            "memory_used": 1566703616,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5717530250549316,
+            "utilization": 2,
+            "memory_used": 1566703616,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.574350357055664,
+            "utilization": 2,
+            "memory_used": 1568800768,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.5768275260925293,
+            "utilization": 2,
+            "memory_used": 1570897920,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 1.579906702041626,
+            "utilization": 2,
+            "memory_used": 1570897920,
+            "memory_total": 25757220864,
+            "power": 63763,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.328974485397339,
+            "utilization": 2,
+            "memory_used": 1570897920,
+            "memory_total": 25757220864,
+            "power": 60196,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8061416149139404,
+            "utilization": 0,
+            "memory_used": 1577189376,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8095014095306396,
+            "utilization": 0,
+            "memory_used": 1579286528,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8124828338623047,
+            "utilization": 0,
+            "memory_used": 1581383680,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.815109968185425,
+            "utilization": 0,
+            "memory_used": 1581383680,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.81738018989563,
+            "utilization": 0,
+            "memory_used": 1581383680,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.823089122772217,
+            "utilization": 0,
+            "memory_used": 1581383680,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.825408935546875,
+            "utilization": 0,
+            "memory_used": 1583480832,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8276610374450684,
+            "utilization": 0,
+            "memory_used": 1583480832,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8300349712371826,
+            "utilization": 0,
+            "memory_used": 1583480832,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.832669258117676,
+            "utilization": 0,
+            "memory_used": 1583480832,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.834949254989624,
+            "utilization": 0,
+            "memory_used": 1585577984,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8371083736419678,
+            "utilization": 0,
+            "memory_used": 1585577984,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.84004282951355,
+            "utilization": 0,
+            "memory_used": 1585577984,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8452885150909424,
+            "utilization": 0,
+            "memory_used": 1585577984,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.847776412963867,
+            "utilization": 0,
+            "memory_used": 1589772288,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.850107431411743,
+            "utilization": 0,
+            "memory_used": 1591869440,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.852264881134033,
+            "utilization": 0,
+            "memory_used": 1593966592,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8547189235687256,
+            "utilization": 0,
+            "memory_used": 1593966592,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.857762098312378,
+            "utilization": 0,
+            "memory_used": 1596063744,
+            "memory_total": 25757220864,
+            "power": 60126,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8641626834869385,
+            "utilization": 0,
+            "memory_used": 1596063744,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.866419792175293,
+            "utilization": 1,
+            "memory_used": 1598160896,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.86877703666687,
+            "utilization": 1,
+            "memory_used": 1598160896,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8709566593170166,
+            "utilization": 1,
+            "memory_used": 1600258048,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8731274604797363,
+            "utilization": 1,
+            "memory_used": 1600258048,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.875286102294922,
+            "utilization": 1,
+            "memory_used": 1600258048,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8777058124542236,
+            "utilization": 1,
+            "memory_used": 1600258048,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8832385540008545,
+            "utilization": 1,
+            "memory_used": 1602355200,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.885599374771118,
+            "utilization": 1,
+            "memory_used": 1602355200,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.888216495513916,
+            "utilization": 1,
+            "memory_used": 1602355200,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.890751600265503,
+            "utilization": 1,
+            "memory_used": 1606549504,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8929150104522705,
+            "utilization": 1,
+            "memory_used": 1608646656,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.895106554031372,
+            "utilization": 1,
+            "memory_used": 1608646656,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.8972556591033936,
+            "utilization": 1,
+            "memory_used": 1608646656,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9029858112335205,
+            "utilization": 1,
+            "memory_used": 1610743808,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9054555892944336,
+            "utilization": 1,
+            "memory_used": 1612840960,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.907829999923706,
+            "utilization": 1,
+            "memory_used": 1612840960,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9100253582000732,
+            "utilization": 1,
+            "memory_used": 1614938112,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.912181854248047,
+            "utilization": 1,
+            "memory_used": 1614938112,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9145336151123047,
+            "utilization": 1,
+            "memory_used": 1614938112,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9169492721557617,
+            "utilization": 1,
+            "memory_used": 1617035264,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9197187423706055,
+            "utilization": 1,
+            "memory_used": 1617035264,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9248452186584473,
+            "utilization": 1,
+            "memory_used": 1617035264,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9273412227630615,
+            "utilization": 1,
+            "memory_used": 1619132416,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9295029640197754,
+            "utilization": 1,
+            "memory_used": 1621229568,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.931901216506958,
+            "utilization": 1,
+            "memory_used": 1621229568,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9344265460968018,
+            "utilization": 1,
+            "memory_used": 1621229568,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.936800956726074,
+            "utilization": 1,
+            "memory_used": 1623326720,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.939849615097046,
+            "utilization": 1,
+            "memory_used": 1623326720,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9446609020233154,
+            "utilization": 1,
+            "memory_used": 1625423872,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9471681118011475,
+            "utilization": 1,
+            "memory_used": 1627521024,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9494898319244385,
+            "utilization": 1,
+            "memory_used": 1627521024,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.951906681060791,
+            "utilization": 1,
+            "memory_used": 1627521024,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9543566703796387,
+            "utilization": 1,
+            "memory_used": 1627521024,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9566595554351807,
+            "utilization": 1,
+            "memory_used": 1627521024,
+            "memory_total": 25757220864,
+            "power": 62560,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.959996461868286,
+            "utilization": 1,
+            "memory_used": 1627521024,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.964759111404419,
+            "utilization": 1,
+            "memory_used": 1629618176,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9674599170684814,
+            "utilization": 1,
+            "memory_used": 1633812480,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.969788074493408,
+            "utilization": 1,
+            "memory_used": 1635909632,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9722633361816406,
+            "utilization": 1,
+            "memory_used": 1638006784,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9745242595672607,
+            "utilization": 1,
+            "memory_used": 1638006784,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9767048358917236,
+            "utilization": 1,
+            "memory_used": 1638006784,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9800963401794434,
+            "utilization": 1,
+            "memory_used": 1638006784,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9845688343048096,
+            "utilization": 1,
+            "memory_used": 1640103936,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9871315956115723,
+            "utilization": 1,
+            "memory_used": 1642201088,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9894189834594727,
+            "utilization": 1,
+            "memory_used": 1642201088,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9920010566711426,
+            "utilization": 1,
+            "memory_used": 1642201088,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.994260549545288,
+            "utilization": 1,
+            "memory_used": 1644298240,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.996426820755005,
+            "utilization": 1,
+            "memory_used": 1644298240,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 2.9991190433502197,
+            "utilization": 1,
+            "memory_used": 1644298240,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.004559278488159,
+            "utilization": 1,
+            "memory_used": 1644298240,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0071561336517334,
+            "utilization": 1,
+            "memory_used": 1646395392,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0095973014831543,
+            "utilization": 1,
+            "memory_used": 1650589696,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0121042728424072,
+            "utilization": 1,
+            "memory_used": 1652686848,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0144386291503906,
+            "utilization": 1,
+            "memory_used": 1654784000,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.016725778579712,
+            "utilization": 1,
+            "memory_used": 1654784000,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0195155143737793,
+            "utilization": 1,
+            "memory_used": 1654784000,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.024660587310791,
+            "utilization": 1,
+            "memory_used": 1656881152,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0271432399749756,
+            "utilization": 1,
+            "memory_used": 1658978304,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0294573307037354,
+            "utilization": 1,
+            "memory_used": 1658978304,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0319602489471436,
+            "utilization": 1,
+            "memory_used": 1661075456,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.034276247024536,
+            "utilization": 1,
+            "memory_used": 1661075456,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.036426544189453,
+            "utilization": 1,
+            "memory_used": 1661075456,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.039109230041504,
+            "utilization": 1,
+            "memory_used": 1661075456,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0441670417785645,
+            "utilization": 1,
+            "memory_used": 1663172608,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.046668767929077,
+            "utilization": 1,
+            "memory_used": 1667366912,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.049093008041382,
+            "utilization": 1,
+            "memory_used": 1667366912,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0516257286071777,
+            "utilization": 1,
+            "memory_used": 1667366912,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.053929567337036,
+            "utilization": 1,
+            "memory_used": 1669464064,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.05690598487854,
+            "utilization": 1,
+            "memory_used": 1669464064,
+            "memory_total": 25757220864,
+            "power": 64816,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0673956871032715,
+            "utilization": 1,
+            "memory_used": 1669464064,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0704991817474365,
+            "utilization": 3,
+            "memory_used": 1671561216,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0733447074890137,
+            "utilization": 3,
+            "memory_used": 1673658368,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.076214551925659,
+            "utilization": 3,
+            "memory_used": 1673658368,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.080937623977661,
+            "utilization": 3,
+            "memory_used": 1675755520,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0854458808898926,
+            "utilization": 3,
+            "memory_used": 1675755520,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0888876914978027,
+            "utilization": 3,
+            "memory_used": 1677852672,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.0927014350891113,
+            "utilization": 3,
+            "memory_used": 1682046976,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 34,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.095886707305908,
+            "utilization": 3,
+            "memory_used": 1682046976,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.099087953567505,
+            "utilization": 3,
+            "memory_used": 1684144128,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1051747798919678,
+            "utilization": 3,
+            "memory_used": 1686241280,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1084835529327393,
+            "utilization": 3,
+            "memory_used": 1688338432,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.111243724822998,
+            "utilization": 3,
+            "memory_used": 1688338432,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1152639389038086,
+            "utilization": 3,
+            "memory_used": 1690435584,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1185944080352783,
+            "utilization": 3,
+            "memory_used": 1690435584,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.123979330062866,
+            "utilization": 3,
+            "memory_used": 1690435584,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.12788462638855,
+            "utilization": 3,
+            "memory_used": 1692532736,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.130911111831665,
+            "utilization": 3,
+            "memory_used": 1692532736,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1339774131774902,
+            "utilization": 3,
+            "memory_used": 1692532736,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1380624771118164,
+            "utilization": 3,
+            "memory_used": 1694629888,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1434683799743652,
+            "utilization": 3,
+            "memory_used": 1694629888,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.146272897720337,
+            "utilization": 3,
+            "memory_used": 1696727040,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1501259803771973,
+            "utilization": 3,
+            "memory_used": 1696727040,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1535563468933105,
+            "utilization": 3,
+            "memory_used": 1698824192,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1567251682281494,
+            "utilization": 3,
+            "memory_used": 1700921344,
+            "memory_total": 25757220864,
+            "power": 64681,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1599202156066895,
+            "utilization": 3,
+            "memory_used": 1700921344,
+            "memory_total": 25757220864,
+            "power": 64120,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.165058135986328,
+            "utilization": 3,
+            "memory_used": 1703018496,
+            "memory_total": 25757220864,
+            "power": 64120,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1676766872406006,
+            "utilization": 3,
+            "memory_used": 1705115648,
+            "memory_total": 25757220864,
+            "power": 64120,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.170193910598755,
+            "utilization": 3,
+            "memory_used": 1705115648,
+            "memory_total": 25757220864,
+            "power": 64120,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 3.1728250980377197,
+            "utilization": 3,
+            "memory_used": 1707212800,
+            "memory_total": 25757220864,
+            "power": 64120,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.227177143096924,
+            "utilization": 1,
+            "memory_used": 1709309952,
+            "memory_total": 25757220864,
+            "power": 60276,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.3867762088775635,
+            "utilization": 0,
+            "memory_used": 1713504256,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.389439582824707,
+            "utilization": 0,
+            "memory_used": 1713504256,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.392029523849487,
+            "utilization": 0,
+            "memory_used": 1713504256,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.394646883010864,
+            "utilization": 0,
+            "memory_used": 1715601408,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.396849632263184,
+            "utilization": 0,
+            "memory_used": 1715601408,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.402534008026123,
+            "utilization": 0,
+            "memory_used": 1715601408,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.404932260513306,
+            "utilization": 0,
+            "memory_used": 1717698560,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.407166242599487,
+            "utilization": 0,
+            "memory_used": 1717698560,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.409538745880127,
+            "utilization": 0,
+            "memory_used": 1717698560,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.411728143692017,
+            "utilization": 0,
+            "memory_used": 1719795712,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.414074420928955,
+            "utilization": 0,
+            "memory_used": 1719795712,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.416438341140747,
+            "utilization": 0,
+            "memory_used": 1721892864,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.419256925582886,
+            "utilization": 0,
+            "memory_used": 1721892864,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.424596548080444,
+            "utilization": 0,
+            "memory_used": 1721892864,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.426980972290039,
+            "utilization": 0,
+            "memory_used": 1723990016,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.429150819778442,
+            "utilization": 0,
+            "memory_used": 1726087168,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.431667804718018,
+            "utilization": 0,
+            "memory_used": 1726087168,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.433994293212891,
+            "utilization": 0,
+            "memory_used": 1728184320,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.436241149902344,
+            "utilization": 0,
+            "memory_used": 1728184320,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.438904047012329,
+            "utilization": 0,
+            "memory_used": 1730281472,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.444034099578857,
+            "utilization": 0,
+            "memory_used": 1730281472,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.446344375610352,
+            "utilization": 0,
+            "memory_used": 1732378624,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.4486963748931885,
+            "utilization": 0,
+            "memory_used": 1732378624,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.450852870941162,
+            "utilization": 0,
+            "memory_used": 1734475776,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.453454256057739,
+            "utilization": 0,
+            "memory_used": 1734475776,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.456134080886841,
+            "utilization": 0,
+            "memory_used": 1736572928,
+            "memory_total": 25757220864,
+            "power": 60288,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.459173202514648,
+            "utilization": 0,
+            "memory_used": 1738670080,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.467649698257446,
+            "utilization": 1,
+            "memory_used": 1740767232,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.469860076904297,
+            "utilization": 1,
+            "memory_used": 1740767232,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.472008228302002,
+            "utilization": 1,
+            "memory_used": 1740767232,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.474428415298462,
+            "utilization": 1,
+            "memory_used": 1740767232,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.476643323898315,
+            "utilization": 1,
+            "memory_used": 1742864384,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.4795684814453125,
+            "utilization": 1,
+            "memory_used": 1742864384,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.484856843948364,
+            "utilization": 1,
+            "memory_used": 1742864384,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.487165451049805,
+            "utilization": 1,
+            "memory_used": 1744961536,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.489307165145874,
+            "utilization": 1,
+            "memory_used": 1744961536,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.49145245552063,
+            "utilization": 1,
+            "memory_used": 1744961536,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.493871688842773,
+            "utilization": 1,
+            "memory_used": 1744961536,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.4960668087005615,
+            "utilization": 1,
+            "memory_used": 1747058688,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.499166965484619,
+            "utilization": 1,
+            "memory_used": 1749155840,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.504316329956055,
+            "utilization": 1,
+            "memory_used": 1749155840,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.506793737411499,
+            "utilization": 1,
+            "memory_used": 1753350144,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.508959054946899,
+            "utilization": 1,
+            "memory_used": 1753350144,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.511327505111694,
+            "utilization": 1,
+            "memory_used": 1753350144,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.513566970825195,
+            "utilization": 1,
+            "memory_used": 1755447296,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.51615047454834,
+            "utilization": 1,
+            "memory_used": 1757544448,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.519205570220947,
+            "utilization": 1,
+            "memory_used": 1757544448,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.524312973022461,
+            "utilization": 1,
+            "memory_used": 1759641600,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.526859521865845,
+            "utilization": 1,
+            "memory_used": 1761738752,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.529554605484009,
+            "utilization": 1,
+            "memory_used": 1761738752,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.531927585601807,
+            "utilization": 1,
+            "memory_used": 1763835904,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.534398317337036,
+            "utilization": 1,
+            "memory_used": 1763835904,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.536766052246094,
+            "utilization": 1,
+            "memory_used": 1765933056,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.542420387268066,
+            "utilization": 1,
+            "memory_used": 1765933056,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.545119285583496,
+            "utilization": 1,
+            "memory_used": 1768030208,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.547297716140747,
+            "utilization": 1,
+            "memory_used": 1770127360,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.5496015548706055,
+            "utilization": 1,
+            "memory_used": 1770127360,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.5521345138549805,
+            "utilization": 1,
+            "memory_used": 1770127360,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.554916620254517,
+            "utilization": 1,
+            "memory_used": 1770127360,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.557341814041138,
+            "utilization": 1,
+            "memory_used": 1772224512,
+            "memory_total": 25757220864,
+            "power": 63462,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.5632288455963135,
+            "utilization": 1,
+            "memory_used": 1772224512,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.565541982650757,
+            "utilization": 1,
+            "memory_used": 1774321664,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.567770481109619,
+            "utilization": 1,
+            "memory_used": 1774321664,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.57012414932251,
+            "utilization": 1,
+            "memory_used": 1776418816,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.572445869445801,
+            "utilization": 1,
+            "memory_used": 1776418816,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.574856519699097,
+            "utilization": 1,
+            "memory_used": 1776418816,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.577033042907715,
+            "utilization": 1,
+            "memory_used": 1778515968,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.582559108734131,
+            "utilization": 1,
+            "memory_used": 1778515968,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.585104703903198,
+            "utilization": 1,
+            "memory_used": 1780613120,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.587339878082275,
+            "utilization": 1,
+            "memory_used": 1780613120,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.589517593383789,
+            "utilization": 1,
+            "memory_used": 1780613120,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.591803312301636,
+            "utilization": 1,
+            "memory_used": 1780613120,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.594635009765625,
+            "utilization": 1,
+            "memory_used": 1780613120,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.596876621246338,
+            "utilization": 1,
+            "memory_used": 1782710272,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.602470397949219,
+            "utilization": 1,
+            "memory_used": 1784807424,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.60536789894104,
+            "utilization": 1,
+            "memory_used": 1786904576,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.607916355133057,
+            "utilization": 1,
+            "memory_used": 1786904576,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.610090732574463,
+            "utilization": 1,
+            "memory_used": 1789001728,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.612421989440918,
+            "utilization": 1,
+            "memory_used": 1789001728,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.614706754684448,
+            "utilization": 1,
+            "memory_used": 1791098880,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.616978883743286,
+            "utilization": 1,
+            "memory_used": 1791098880,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.632719039916992,
+            "utilization": 1,
+            "memory_used": 1797390336,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.635217189788818,
+            "utilization": 1,
+            "memory_used": 1797390336,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.637425184249878,
+            "utilization": 1,
+            "memory_used": 1797390336,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.643361568450928,
+            "utilization": 1,
+            "memory_used": 1799487488,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.64705491065979,
+            "utilization": 1,
+            "memory_used": 1801584640,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.649885177612305,
+            "utilization": 1,
+            "memory_used": 1801584640,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.652956008911133,
+            "utilization": 1,
+            "memory_used": 1801584640,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.656846523284912,
+            "utilization": 1,
+            "memory_used": 1803681792,
+            "memory_total": 25757220864,
+            "power": 64818,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.666960716247559,
+            "utilization": 1,
+            "memory_used": 1803681792,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.669769048690796,
+            "utilization": 3,
+            "memory_used": 1807876096,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.672917366027832,
+            "utilization": 3,
+            "memory_used": 1812070400,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.676231861114502,
+            "utilization": 3,
+            "memory_used": 1812070400,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.682331085205078,
+            "utilization": 3,
+            "memory_used": 1814167552,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.68555474281311,
+            "utilization": 3,
+            "memory_used": 1814167552,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.689466238021851,
+            "utilization": 3,
+            "memory_used": 1816264704,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.692474603652954,
+            "utilization": 3,
+            "memory_used": 1816264704,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.695326328277588,
+            "utilization": 3,
+            "memory_used": 1818361856,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.700773000717163,
+            "utilization": 3,
+            "memory_used": 1818361856,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.704648971557617,
+            "utilization": 3,
+            "memory_used": 1818361856,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.707956314086914,
+            "utilization": 3,
+            "memory_used": 1820459008,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.711519241333008,
+            "utilization": 3,
+            "memory_used": 1820459008,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.714842081069946,
+            "utilization": 3,
+            "memory_used": 1822556160,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.717894792556763,
+            "utilization": 3,
+            "memory_used": 1822556160,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.723921298980713,
+            "utilization": 3,
+            "memory_used": 1824653312,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.727341890335083,
+            "utilization": 3,
+            "memory_used": 1824653312,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.7306296825408936,
+            "utilization": 3,
+            "memory_used": 1826750464,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.734539747238159,
+            "utilization": 3,
+            "memory_used": 1826750464,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.737412214279175,
+            "utilization": 3,
+            "memory_used": 1828847616,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.74299693107605,
+            "utilization": 3,
+            "memory_used": 1828847616,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.745406150817871,
+            "utilization": 3,
+            "memory_used": 1830944768,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.747584581375122,
+            "utilization": 3,
+            "memory_used": 1830944768,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.750104904174805,
+            "utilization": 3,
+            "memory_used": 1830944768,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.753114700317383,
+            "utilization": 3,
+            "memory_used": 1833041920,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.7558581829071045,
+            "utilization": 3,
+            "memory_used": 1835139072,
+            "memory_total": 25757220864,
+            "power": 63884,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 4.759480714797974,
+            "utilization": 3,
+            "memory_used": 1835139072,
+            "memory_total": 25757220864,
+            "power": 64045,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 5.511467933654785,
+            "utilization": 1,
+            "memory_used": 1839333376,
+            "memory_total": 25757220864,
+            "power": 60347,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 5.987240791320801,
+            "utilization": 0,
+            "memory_used": 1841430528,
+            "memory_total": 25757220864,
+            "power": 60416,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 5.990444898605347,
+            "utilization": 0,
+            "memory_used": 1845624832,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 5.99356484413147,
+            "utilization": 0,
+            "memory_used": 1845624832,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 5.9961326122283936,
+            "utilization": 0,
+            "memory_used": 1845624832,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.002018928527832,
+            "utilization": 0,
+            "memory_used": 1845624832,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.00458836555481,
+            "utilization": 0,
+            "memory_used": 1847721984,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.006831884384155,
+            "utilization": 0,
+            "memory_used": 1849819136,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.008989334106445,
+            "utilization": 0,
+            "memory_used": 1849819136,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.011389493942261,
+            "utilization": 0,
+            "memory_used": 1849819136,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.013576507568359,
+            "utilization": 0,
+            "memory_used": 1851916288,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.016104459762573,
+            "utilization": 0,
+            "memory_used": 1851916288,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.0189368724823,
+            "utilization": 0,
+            "memory_used": 1854013440,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.023931980133057,
+            "utilization": 0,
+            "memory_used": 1854013440,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.026251316070557,
+            "utilization": 0,
+            "memory_used": 1856110592,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.028400897979736,
+            "utilization": 0,
+            "memory_used": 1856110592,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.030961513519287,
+            "utilization": 0,
+            "memory_used": 1858207744,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.033277273178101,
+            "utilization": 0,
+            "memory_used": 1858207744,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.035437107086182,
+            "utilization": 0,
+            "memory_used": 1858207744,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.038335561752319,
+            "utilization": 0,
+            "memory_used": 1858207744,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.043297052383423,
+            "utilization": 0,
+            "memory_used": 1860304896,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.045812368392944,
+            "utilization": 0,
+            "memory_used": 1862402048,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.048336029052734,
+            "utilization": 0,
+            "memory_used": 1862402048,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.050663232803345,
+            "utilization": 0,
+            "memory_used": 1862402048,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.053112745285034,
+            "utilization": 0,
+            "memory_used": 1864499200,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.055455923080444,
+            "utilization": 0,
+            "memory_used": 1864499200,
+            "memory_total": 25757220864,
+            "power": 60220,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.058784484863281,
+            "utilization": 0,
+            "memory_used": 1864499200,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.064005613327026,
+            "utilization": 1,
+            "memory_used": 1866596352,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.066237688064575,
+            "utilization": 1,
+            "memory_used": 1868693504,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.068636178970337,
+            "utilization": 1,
+            "memory_used": 1868693504,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.070802450180054,
+            "utilization": 1,
+            "memory_used": 1870790656,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.07294487953186,
+            "utilization": 1,
+            "memory_used": 1870790656,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.075193881988525,
+            "utilization": 1,
+            "memory_used": 1870790656,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.077686309814453,
+            "utilization": 1,
+            "memory_used": 1874984960,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.0829432010650635,
+            "utilization": 1,
+            "memory_used": 1874984960,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.0852954387664795,
+            "utilization": 1,
+            "memory_used": 1877082112,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.087461948394775,
+            "utilization": 1,
+            "memory_used": 1877082112,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.089604616165161,
+            "utilization": 1,
+            "memory_used": 1877082112,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.091916084289551,
+            "utilization": 1,
+            "memory_used": 1879179264,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.094075918197632,
+            "utilization": 1,
+            "memory_used": 1879179264,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.096320867538452,
+            "utilization": 1,
+            "memory_used": 1879179264,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1019861698150635,
+            "utilization": 1,
+            "memory_used": 1881276416,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.10437798500061,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.106579303741455,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.108741044998169,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.110890626907349,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1130688190460205,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.115633010864258,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.118475437164307,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.123701572418213,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.126129865646362,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1285340785980225,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.130886077880859,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.133197069168091,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.135535717010498,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.138329982757568,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.143422603607178,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.146026134490967,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.148479223251343,
+            "utilization": 1,
+            "memory_used": 1889665024,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.150660514831543,
+            "utilization": 1,
+            "memory_used": 1891762176,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.153180360794067,
+            "utilization": 1,
+            "memory_used": 1891762176,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.156012773513794,
+            "utilization": 1,
+            "memory_used": 1893859328,
+            "memory_total": 25757220864,
+            "power": 63256,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.158989906311035,
+            "utilization": 1,
+            "memory_used": 1893859328,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1641833782196045,
+            "utilization": 1,
+            "memory_used": 1893859328,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.166875123977661,
+            "utilization": 1,
+            "memory_used": 1898053632,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.169107437133789,
+            "utilization": 1,
+            "memory_used": 1898053632,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1713547706604,
+            "utilization": 1,
+            "memory_used": 1898053632,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1736719608306885,
+            "utilization": 1,
+            "memory_used": 1900150784,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.175989151000977,
+            "utilization": 1,
+            "memory_used": 1900150784,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.179088115692139,
+            "utilization": 1,
+            "memory_used": 1902247936,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.1841654777526855,
+            "utilization": 1,
+            "memory_used": 1902247936,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.186627626419067,
+            "utilization": 1,
+            "memory_used": 1904345088,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.188799142837524,
+            "utilization": 1,
+            "memory_used": 1904345088,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.191180467605591,
+            "utilization": 1,
+            "memory_used": 1906442240,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.193470239639282,
+            "utilization": 1,
+            "memory_used": 1906442240,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.195952892303467,
+            "utilization": 1,
+            "memory_used": 1908539392,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.19892692565918,
+            "utilization": 1,
+            "memory_used": 1908539392,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.20422101020813,
+            "utilization": 1,
+            "memory_used": 1910636544,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.206779956817627,
+            "utilization": 1,
+            "memory_used": 1910636544,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.208934783935547,
+            "utilization": 1,
+            "memory_used": 1912733696,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.211312770843506,
+            "utilization": 1,
+            "memory_used": 1912733696,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.213501214981079,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.215673923492432,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.218511343002319,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.223482370376587,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.22580361366272,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.227995872497559,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.2311530113220215,
+            "utilization": 1,
+            "memory_used": 1914830848,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.234819650650024,
+            "utilization": 1,
+            "memory_used": 1916928000,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.238266706466675,
+            "utilization": 1,
+            "memory_used": 1919025152,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.243504524230957,
+            "utilization": 1,
+            "memory_used": 1923219456,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.246826410293579,
+            "utilization": 1,
+            "memory_used": 1923219456,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.250263214111328,
+            "utilization": 1,
+            "memory_used": 1925316608,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.253493309020996,
+            "utilization": 1,
+            "memory_used": 1927413760,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.2568511962890625,
+            "utilization": 1,
+            "memory_used": 1927413760,
+            "memory_total": 25757220864,
+            "power": 64716,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.266558647155762,
+            "utilization": 1,
+            "memory_used": 1927413760,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.26955246925354,
+            "utilization": 3,
+            "memory_used": 1931608064,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.272608518600464,
+            "utilization": 3,
+            "memory_used": 1931608064,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.276083469390869,
+            "utilization": 3,
+            "memory_used": 1933705216,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.281960487365723,
+            "utilization": 3,
+            "memory_used": 1933705216,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.285039186477661,
+            "utilization": 3,
+            "memory_used": 1935802368,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.2888476848602295,
+            "utilization": 3,
+            "memory_used": 1937899520,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.292121171951294,
+            "utilization": 3,
+            "memory_used": 1937899520,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.294856071472168,
+            "utilization": 3,
+            "memory_used": 1939996672,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.299440383911133,
+            "utilization": 3,
+            "memory_used": 1942093824,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.303558826446533,
+            "utilization": 3,
+            "memory_used": 1942093824,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.30649995803833,
+            "utilization": 3,
+            "memory_used": 1944190976,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.310415506362915,
+            "utilization": 3,
+            "memory_used": 1946288128,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.313436031341553,
+            "utilization": 3,
+            "memory_used": 1946288128,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.316197156906128,
+            "utilization": 3,
+            "memory_used": 1946288128,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.323232650756836,
+            "utilization": 3,
+            "memory_used": 1946288128,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.326796054840088,
+            "utilization": 3,
+            "memory_used": 1948385280,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.329641103744507,
+            "utilization": 3,
+            "memory_used": 1952579584,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.333086967468262,
+            "utilization": 3,
+            "memory_used": 1956773888,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.335280895233154,
+            "utilization": 3,
+            "memory_used": 1958871040,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.33772349357605,
+            "utilization": 3,
+            "memory_used": 1958871040,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.342965841293335,
+            "utilization": 3,
+            "memory_used": 1958871040,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.3456737995147705,
+            "utilization": 3,
+            "memory_used": 1960968192,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 6.782873153686523,
+            "utilization": 3,
+            "memory_used": 1960968192,
+            "memory_total": 25757220864,
+            "power": 64817,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.567217588424683,
+            "utilization": 0,
+            "memory_used": 1967259648,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.5703489780426025,
+            "utilization": 0,
+            "memory_used": 1969356800,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.5729429721832275,
+            "utilization": 0,
+            "memory_used": 1971453952,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.57548189163208,
+            "utilization": 0,
+            "memory_used": 1971453952,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.578553199768066,
+            "utilization": 0,
+            "memory_used": 1971453952,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.5833799839019775,
+            "utilization": 0,
+            "memory_used": 1973551104,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.585978031158447,
+            "utilization": 0,
+            "memory_used": 1973551104,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.588331699371338,
+            "utilization": 0,
+            "memory_used": 1975648256,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.590519666671753,
+            "utilization": 0,
+            "memory_used": 1977745408,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.592892169952393,
+            "utilization": 0,
+            "memory_used": 1977745408,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.595179796218872,
+            "utilization": 0,
+            "memory_used": 1979842560,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.597872495651245,
+            "utilization": 0,
+            "memory_used": 1979842560,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.6030097007751465,
+            "utilization": 0,
+            "memory_used": 1981939712,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.605349063873291,
+            "utilization": 0,
+            "memory_used": 1981939712,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.6075193881988525,
+            "utilization": 0,
+            "memory_used": 1981939712,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.609963417053223,
+            "utilization": 0,
+            "memory_used": 1981939712,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.612289667129517,
+            "utilization": 0,
+            "memory_used": 1984036864,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.614640712738037,
+            "utilization": 0,
+            "memory_used": 1986134016,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.616945743560791,
+            "utilization": 0,
+            "memory_used": 1988231168,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.6223132610321045,
+            "utilization": 0,
+            "memory_used": 1988231168,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.624708890914917,
+            "utilization": 0,
+            "memory_used": 1990328320,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.627118110656738,
+            "utilization": 0,
+            "memory_used": 1990328320,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.62929892539978,
+            "utilization": 0,
+            "memory_used": 1992425472,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.6320250034332275,
+            "utilization": 0,
+            "memory_used": 1992425472,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.63427472114563,
+            "utilization": 0,
+            "memory_used": 1994522624,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.636453151702881,
+            "utilization": 0,
+            "memory_used": 1994522624,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.641829490661621,
+            "utilization": 0,
+            "memory_used": 1996619776,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.644195079803467,
+            "utilization": 0,
+            "memory_used": 1998716928,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.646371841430664,
+            "utilization": 0,
+            "memory_used": 1998716928,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.648594617843628,
+            "utilization": 0,
+            "memory_used": 1998716928,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.650758981704712,
+            "utilization": 0,
+            "memory_used": 2000814080,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.653269290924072,
+            "utilization": 0,
+            "memory_used": 2000814080,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.655755519866943,
+            "utilization": 0,
+            "memory_used": 2002911232,
+            "memory_total": 25757220864,
+            "power": 60427,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.665984153747559,
+            "utilization": 0,
+            "memory_used": 2002911232,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.668220281600952,
+            "utilization": 2,
+            "memory_used": 2005008384,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.6704535484313965,
+            "utilization": 2,
+            "memory_used": 2005008384,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.672619104385376,
+            "utilization": 2,
+            "memory_used": 2007105536,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.674917936325073,
+            "utilization": 2,
+            "memory_used": 2007105536,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.677303075790405,
+            "utilization": 2,
+            "memory_used": 2009202688,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.68260931968689,
+            "utilization": 2,
+            "memory_used": 2009202688,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.684937000274658,
+            "utilization": 2,
+            "memory_used": 2011299840,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.687320232391357,
+            "utilization": 2,
+            "memory_used": 2011299840,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.689523935317993,
+            "utilization": 2,
+            "memory_used": 2013396992,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.691885948181152,
+            "utilization": 2,
+            "memory_used": 2013396992,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.694045782089233,
+            "utilization": 2,
+            "memory_used": 2015494144,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.696407318115234,
+            "utilization": 2,
+            "memory_used": 2015494144,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.702065706253052,
+            "utilization": 2,
+            "memory_used": 2017591296,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.704532146453857,
+            "utilization": 2,
+            "memory_used": 2019688448,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.7068493366241455,
+            "utilization": 2,
+            "memory_used": 2019688448,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.709347724914551,
+            "utilization": 2,
+            "memory_used": 2021785600,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.711718559265137,
+            "utilization": 2,
+            "memory_used": 2021785600,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.714216709136963,
+            "utilization": 2,
+            "memory_used": 2021785600,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.716910123825073,
+            "utilization": 2,
+            "memory_used": 2023882752,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.7222630977630615,
+            "utilization": 2,
+            "memory_used": 2025979904,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.724719285964966,
+            "utilization": 2,
+            "memory_used": 2028077056,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.726899147033691,
+            "utilization": 2,
+            "memory_used": 2028077056,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.729457855224609,
+            "utilization": 2,
+            "memory_used": 2028077056,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.7320661544799805,
+            "utilization": 2,
+            "memory_used": 2030174208,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.734484910964966,
+            "utilization": 2,
+            "memory_used": 2032271360,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.736842632293701,
+            "utilization": 2,
+            "memory_used": 2032271360,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.7564849853515625,
+            "utilization": 2,
+            "memory_used": 2034368512,
+            "memory_total": 25757220864,
+            "power": 64538,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.762514352798462,
+            "utilization": 2,
+            "memory_used": 2040659968,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.765268564224243,
+            "utilization": 2,
+            "memory_used": 2042757120,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.767657995223999,
+            "utilization": 2,
+            "memory_used": 2044854272,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.770225524902344,
+            "utilization": 2,
+            "memory_used": 2046951424,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.772575855255127,
+            "utilization": 2,
+            "memory_used": 2046951424,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.775032997131348,
+            "utilization": 2,
+            "memory_used": 2046951424,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.777623414993286,
+            "utilization": 2,
+            "memory_used": 2049048576,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.782984018325806,
+            "utilization": 2,
+            "memory_used": 2051145728,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.785281658172607,
+            "utilization": 2,
+            "memory_used": 2053242880,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.787437677383423,
+            "utilization": 2,
+            "memory_used": 2053242880,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.789777755737305,
+            "utilization": 2,
+            "memory_used": 2055340032,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.791938543319702,
+            "utilization": 2,
+            "memory_used": 2055340032,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.794241189956665,
+            "utilization": 2,
+            "memory_used": 2057437184,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.796386480331421,
+            "utilization": 2,
+            "memory_used": 2057437184,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.801761865615845,
+            "utilization": 2,
+            "memory_used": 2057437184,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.804274082183838,
+            "utilization": 2,
+            "memory_used": 2059534336,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.806654691696167,
+            "utilization": 2,
+            "memory_used": 2061631488,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.809356212615967,
+            "utilization": 2,
+            "memory_used": 2061631488,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.813246011734009,
+            "utilization": 2,
+            "memory_used": 2063728640,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.8163933753967285,
+            "utilization": 2,
+            "memory_used": 2063728640,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.822221994400024,
+            "utilization": 2,
+            "memory_used": 2065825792,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.826254844665527,
+            "utilization": 2,
+            "memory_used": 2067922944,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.829179525375366,
+            "utilization": 2,
+            "memory_used": 2067922944,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.832118988037109,
+            "utilization": 2,
+            "memory_used": 2067922944,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.835728168487549,
+            "utilization": 2,
+            "memory_used": 2067922944,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.842089653015137,
+            "utilization": 2,
+            "memory_used": 2070020096,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.844939708709717,
+            "utilization": 2,
+            "memory_used": 2072117248,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.84910249710083,
+            "utilization": 2,
+            "memory_used": 2072117248,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.852502107620239,
+            "utilization": 2,
+            "memory_used": 2074214400,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.85565972328186,
+            "utilization": 2,
+            "memory_used": 2076311552,
+            "memory_total": 25757220864,
+            "power": 64703,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.866520404815674,
+            "utilization": 2,
+            "memory_used": 2076311552,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.86985182762146,
+            "utilization": 4,
+            "memory_used": 2078408704,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.8727357387542725,
+            "utilization": 4,
+            "memory_used": 2080505856,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.876648902893066,
+            "utilization": 4,
+            "memory_used": 2082603008,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.882472515106201,
+            "utilization": 4,
+            "memory_used": 2086797312,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.8856284618377686,
+            "utilization": 4,
+            "memory_used": 2086797312,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.889287710189819,
+            "utilization": 4,
+            "memory_used": 2088894464,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.8923070430755615,
+            "utilization": 4,
+            "memory_used": 2088894464,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.895041227340698,
+            "utilization": 4,
+            "memory_used": 2088894464,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.902448415756226,
+            "utilization": 4,
+            "memory_used": 2090991616,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.9057886600494385,
+            "utilization": 4,
+            "memory_used": 2093088768,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.909226417541504,
+            "utilization": 4,
+            "memory_used": 2095185920,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.911406993865967,
+            "utilization": 4,
+            "memory_used": 2095185920,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.913785457611084,
+            "utilization": 4,
+            "memory_used": 2095185920,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.917317152023315,
+            "utilization": 4,
+            "memory_used": 2418147328,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.922944784164429,
+            "utilization": 4,
+            "memory_used": 2418147328,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 35,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 7.9257729053497314,
+            "utilization": 4,
+            "memory_used": 2741108736,
+            "memory_total": 25757220864,
+            "power": 64777,
+            "temperature": 36,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        },
+        {
+            "time": 8.679710626602173,
+            "utilization": 4,
+            "memory_used": 3064070144,
+            "memory_total": 25757220864,
+            "power": 60597,
+            "temperature": 36,
+            "sm_clock": 1695,
+            "mem_clock": 7600
+        }
+    ]
+}
